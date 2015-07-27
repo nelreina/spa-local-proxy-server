@@ -1,0 +1,22 @@
+{
+  "name": "hapitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.mocha.js"
+  },
+  "author": "Nelson Reina",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^2.8.0",
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.0",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3"
+  }
+}
